@@ -1,0 +1,14 @@
+<plugin name='liveid' version='0.1' grailsVersion='1.1.1 &gt; *'>
+  <author>Seymour Cakes</author>
+  <authorEmail>seymores@g_mai__.cm</authorEmail>
+  <title>Provides Windows Live ID authentication service</title>
+  <description>Provides helpful service and taglibs for authenticating with Windows Live ID service.
+</description>
+  <documentation>http://grails.org/Liveid+Plugin</documentation>
+  <resources>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>LiveIDServiceService</resource>
+  </resources>
+  <dependencies />
+</plugin>

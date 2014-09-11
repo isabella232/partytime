@@ -1,0 +1,378 @@
+#navigation {
+    height: 35px;
+    background-color: #E1EFF6;
+}
+
+div.message {
+    font-weight:bold;
+    font-size:1em;
+    color:red;
+    padding: 0.5em;
+}
+
+table {
+    width: 100%
+}
+tr {
+    border: 0;
+}
+td, th { 
+    font: 11px verdana, arial, helvetica, sans-serif;
+    line-height: 12px;
+    padding: 5px 6px;
+    text-align: left;
+    vertical-align: top;
+}
+th {
+    color: #666;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 2px 6px;
+}
+th a:link, th a:visited, th a:hover {
+    color: #333;
+    display: block;
+    font-size: 10px;
+    text-decoration: none;
+    width: 100%;
+}
+th.asc a, th.desc a {
+    background-position: right;
+    background-repeat: no-repeat;
+}
+th.asc a {
+    background-image: url(../images/skin/sorted_asc.gif);
+}
+th.desc a {
+    background-image: url(../images/skin/sorted_desc.gif);
+}
+
+.odd {
+    background: #f7f7f7;
+}
+.even {
+    background: #fff;
+}
+
+/* LIST */
+
+.list table {
+    border-collapse: collapse;
+}
+.list th, .list td {
+}
+.list th:hover, .list tr:hover {
+    background: #b2d1ff;
+}
+
+/* PAGINATION */
+
+.paginateButtons {
+    background: #fff bottom repeat-x;
+    border-top: 0;
+    color: #666;
+    font-size: 10px;
+    overflow: hidden;
+    padding: 10px 3px;
+}
+.paginateButtons a {
+    background: #fff;
+    border-color: #ccc #aaa #aaa #ccc;
+    color: #666;
+    margin: 0 3px;
+    padding: 2px 6px;
+}
+.paginateButtons span {
+    padding: 2px 3px;
+}
+
+/* DIALOG */
+
+.dialog table {
+    padding: 5px 0;
+}
+
+.prop {
+    padding: 5px;
+}
+.prop .name {
+    text-align: left;
+    width: 15%;
+    white-space: nowrap;
+}
+.prop .value {
+    text-align: left;
+    width: 85%;
+}
+
+.profile_link {
+    text-decoration:none;
+    display:block;
+}
+
+div#profile {
+    background-color:#EFF4FF;
+    color:#000666;
+    -moz-border-radius: 4px;  
+    -webkit-border-radius: 4px;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    border: 1px solid #e5e5e5;
+}
+
+#profile ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 8px;
+}
+
+#profile li {
+    margin-left: 0px;
+}
+
+#friends {
+    background-color: #EFF4FF;
+    color:#000666;
+    -moz-border-radius: 4px;  
+    -webkit-border-radius: 4px;
+    padding: 1em;
+    border:1px solid #e5e5e5;
+}
+
+#friends ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 8px;
+}
+
+#friends li {
+    margin-left: 0px;
+}
+
+div#friend_search {
+    height: 40px;
+}
+
+#tribes {
+    background-color: #EFF4FF;
+    color:#000666;
+    -moz-border-radius: 4px;  
+    -webkit-border-radius: 4px;
+    padding: 1em;
+    border: 1px solid #e5e5e5;
+}
+
+#tribes ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 8px;
+}
+
+#tribes li {
+    margin-left: 0px;
+}
+
+span.mantra {
+    font-size:25px;
+    letter-spacing:-1px;
+    line-height:27px;
+}
+
+div.mantra {
+    border-left:5px solid #FF00BF;
+    color:#888888;
+    font-family:Helvetica,sans-serif;
+    font-weight:bold;
+    padding-left:10px;
+}
+
+input.text, textarea {
+    background:#FFFFFF url(../images/input_bg.gif) repeat-x scroll center top;
+    padding: 4px;
+    border:1px solid #BBBBBB;
+    font-family:arial, verdana, sans-serif;
+    font-size:small;
+}
+
+div#profile_photo {
+    border: 1px solid #A0ACC0;
+    text-align: center;
+    background:#fff;
+    margin:3px;
+    padding:3px;
+    height: auto;
+    float: left;
+}
+
+#profile_photo img {
+}
+
+#profile_edit {
+    clear:both;
+    padding:1em;
+}
+
+span.title {
+    padding: 1em;
+    font-weight:bold;
+    font-size:10pt;
+}
+
+#news li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+                    
+#news li {
+    font-size:10pt;
+    background-image: url(../images/icons/newspaper.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding: 3px 0 3px 25px;
+    margin: .3em 0;
+}
+
+#news li {
+    font-size:10pt;
+    background: url(../images/icons/newspaper.png) no-repeat 0% 15%;
+    padding: 3px 0 3px 25px;
+    margin: .1em 0;
+}
+
+#news li.system {
+    background: url(../images/icons/bell.png) no-repeat 0% 15% ;
+}
+
+#news li.tribe {
+    background: url(../images/icons/group.png) no-repeat 0% 15%;
+}
+
+#news li.tribe_comment {
+    background: url(../images/icons/user_comment.png) no-repeat 0% 15%;
+}
+
+.news_title {
+    clear:both;
+    font-size:11pt;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+#postedItems {
+    background-color:#EFF4FF;
+    color:#000666;
+    -moz-border-radius: 4px;  
+    -webkit-border-radius: 4px;
+    padding: 0.5em 0.5em 1.5em 1.5em;
+    border: 1px solid #e5e5e5;
+    float:left;
+    width: 88%;
+}
+
+.tribe_news_title {
+    clear:both;
+    font-size:11pt;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    margin-top: 1.8em;
+}
+
+.news_title {
+    clear:both;
+    font-size:11pt;
+    font-weight: bold;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 1.0em;
+}
+
+.tribe_news_title {
+    clear:both;
+    font-size:11pt;
+    font-weight: bold;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 1.8em;
+}
+
+.separator {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 3px;
+    clear:both;
+}
+
+#menu {
+    position:relative;
+	float:left;
+	width:100%;
+	margin:0;
+	list-style:none;
+	line-height:1em;
+}
+
+ul#menu {
+    margin-bottom: 0px;
+}
+
+#menu ul {
+    margin-bottom: 0px;
+}
+
+#menu li {
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#menu a {
+    display:block;
+	color:#444;
+	text-decoration:none;
+	background:#ddd;
+	margin:0;
+	padding:0.25em 1em;
+	border-left:1px solid #fff;
+	border-top:1px solid #fff;
+	border-right:1px solid #aaa;
+}
+
+span.identity {
+    font-family:verdana, arial, helvetica, sans-serif;
+    font-size:14pt;
+    font-weight:bold;
+    color:#666;
+    padding-left:20px;
+}
+
+#postedItems img {
+    margin: 3px;
+    width: 50px;
+    border: 2px solid #fff;
+}
+
+img.postItem {
+    width: 95px;
+}
+
+div.item a.postitem_link {
+    line-height:1.2;
+    display:block;
+    float:left;
+}
+
+div.thumbnail {
+    width: 85px;
+}
+
+div.item {
+    clear:both;
+}
+
+p.desc {
+    font-size:9pt;
+    margin-bottom: 5px;
+}
+
+div#postedItems div {
+    position: relative;
+}

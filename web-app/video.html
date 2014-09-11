@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title>VideoCam Snapshot</title>
+</head>
+    <body>
+
+        <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="videocam" align="middle" height="360" width="450">
+                <param name="allowScriptAccess" value="sameDomain">
+                <param name="allowFullScreen" value="false">
+                <param name="movie" value="VideoCamera.swf">
+                <param name="quality" value="high">
+                <param name="bgcolor" value="#ffffff">	
+                <embed id="VideoCamEmbed" src="VideoCamera.swf" quality="high" bgcolor="#ffffff" name="videocam" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" align="middle" height="360" width="450">
+        </object>
+        
+    <div id="output">
+    </div>
+
+    <script type="text/javascript">
+
+        function snapshotOutput(base64Img) {
+
+            console.log(base64Img);
+            
+            var img = document.createElement("img");
+            img.setAttribute('src', "data:image/png;base64," + base64Img);
+            img.setAttribute('alt', 'My snapshot');
+            img.setAttribute('width', "450");
+            img.setAttribute('height', "360");
+            
+            var output = document.getElementById('output');
+            output.appendChild(img);
+        }
+
+    </script>
+
+    </body>
+</html>
+

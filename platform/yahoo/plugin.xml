@@ -1,0 +1,17 @@
+<plugin name='yahoo' version='0.1' grailsVersion='1.1.1 &gt; *'>
+  <author>aj</author>
+  <authorEmail>asri@favoritemedium.com</authorEmail>
+  <title>Yahoo BBAuth</title>
+  <description>    	Grails implementation of Yahoo BBAuth. Consists of a taglib and verification of the Yahoo callback.
+    	Token is put into session.
+	</description>
+  <documentation>http://grails.org/Yahoo+Plugin</documentation>
+  <resources>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>YahooController</resource>
+    <resource>YahooService</resource>
+    <resource>YahooTagLib</resource>
+  </resources>
+  <dependencies />
+</plugin>

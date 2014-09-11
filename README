@@ -1,0 +1,47 @@
+This is the README for Party Time
+
+ABOUT
+
+Simplifying Grails development with common reusable components 
+
+Project site: http://code.google.com/p/party-time/
+Discussion forum: http://groups.google.com/group/party-time-project
+
+LICENSE
+
+Party Time is distributed under the Apache License, version 2.0
+
+DESIGN
+
+Party Time is a set of orchestrated Grails plugins implemented in Groovy and 
+designed to provide developers, on an à la carte basis, with a standard, 
+modularized way to add common features to web applications.
+
+Features
+
+* Users
+      o registration and self-maintenance
+      o profile photo
+      o OpenID and standard local authentication 
+* Messaging
+      o user-to-user messaging
+      o Chat/IM (planned) 
+* Tribes/groups
+      o Invite/Private Tribe
+      o Group messaging
+      o Group events (planned) 
+* Blogs
+      o Pebble integration (coming soon)
+      o microblogging (planned) 
+* Media Sharing (planned) 
+
+PREREQUISITES
+
+Grails 1.0.4
+
+INSTALLATION
+
+1. grails run-app
+2. Point browser to http://localhost:8080/partytime
+3. Default admin credentials: admin/password
+

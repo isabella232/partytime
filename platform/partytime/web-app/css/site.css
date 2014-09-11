@@ -1,0 +1,45 @@
+#sitebar {
+    background-color:#EF0E81;
+    height: 35px;
+}
+
+#sitebar a {
+    font-family: arial, verdana, sans-serif;
+    color: #ffffff;
+    text-decoration:none;
+}
+
+#footer {
+   margin-top: 3em;
+}
+
+#content-body {
+    height: 500px;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.content {
+    padding-left: 5px;
+}
+
+.rightsitebar {
+    padding: 0.5em;
+    text-align:right;
+}
+
+.leftsitebar {
+    padding: 0.5em;
+    text-align:left;
+}
+
+.gapper {
+    margin-top: 2px;
+}
+
+.strongtitle {
+    color:#0000FF;
+    font-size:1.2em;
+    font-weight:bold;
+    font-family:verdana,sans-serif;
+}

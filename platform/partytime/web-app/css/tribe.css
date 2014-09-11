@@ -1,0 +1,20 @@
+.tribe_message {
+    font-size:10pt;
+}
+
+.tribe_subject {
+    font-weight:bold;
+    color:blue;
+    clear:both;
+}
+
+.tribe_reply_box {
+    margin-top:1em;
+    margin-bottom:2em;
+}
+
+.tribe_reply_box textarea {
+    width:60%;
+    height:100px;
+    margin-bottom:1em;
+}
